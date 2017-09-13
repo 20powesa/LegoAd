@@ -121,6 +121,5 @@ void draw(){
   fill(deweyBlue);
   rect(DeweyX, DeweyY + (smallBlock) * 5 + normalBlock * 2, blockWidth, smallBlock);
   rect(DeweyX, DeweyY + (smallBlock) * 6 + normalBlock * 2, blockWidth, smallBlock);
-  
-
 }
+//Help from Noah Anderson and Andrew Smith
