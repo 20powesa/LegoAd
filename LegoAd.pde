@@ -1,4 +1,7 @@
- int controlNum = 0;
+  //LegoAd
+  //Help from Noah Anderson and Instructor
+  
+  int controlNum = 0;
   int DonaldX = 100;
   int DuckY = 350;
   int LouieY = 500;
@@ -122,4 +125,3 @@ void draw(){
   rect(DeweyX, DeweyY + (smallBlock) * 5 + normalBlock * 2, blockWidth, smallBlock);
   rect(DeweyX, DeweyY + (smallBlock) * 6 + normalBlock * 2, blockWidth, smallBlock);
 }
-//Help from Noah Anderson and Andrew Smith
