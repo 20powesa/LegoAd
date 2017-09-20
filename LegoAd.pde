@@ -1,6 +1,7 @@
   //LegoAd
   //Help from Noah Anderson and Instructor
   
+  //Declaring Variables for the Ducks
   int controlNum = 0;
   int DonaldX = 100;
   int DuckY = 350;
@@ -33,6 +34,8 @@ void draw(){
   background(255, 249, 230);
   
   //Donald Duck
+  
+  //Making Donald Duck move from the far on the x-axis to the left 5 pixels every time.
   if (DonaldX < 310){
     DonaldX += 5;
   }
@@ -57,6 +60,8 @@ void draw(){
   rect(DonaldX, DuckY + (normalBlock) * 3 + (smallBlock) * 4 + largerBlock, blockWidth, smallBlock);
   
   //Louie Duck (Green)
+  
+  //Louie will move up 2 pixels on the y-axis and move right 5 pixels on the x-axis.
   if (LouieY > 350){
     LouieY -= 2;
   }
@@ -80,6 +85,8 @@ void draw(){
   rect(LouieX, LouieY + (smallBlock) * 6 + normalBlock * 2, blockWidth, smallBlock);
   
   //Huey Duck (Red)
+  
+  //Huey will move down 2 pixels on the y-axis and move left 5 pixels on the x-axis.
   if (HueyY < 350){
     HueyY += 2;
   }
@@ -103,6 +110,8 @@ void draw(){
   rect(HueyX, HueyY + (smallBlock) * 6 + normalBlock * 2, blockWidth, smallBlock);
   
   //Dewey Duck (Blue)
+  
+  //Dewey will move down 5 pixels on the y-axis and move left 5 pixels on the x-axis.
   if (DeweyX > 550){
     DeweyX -= 5;
   }
@@ -124,4 +133,6 @@ void draw(){
   fill(deweyBlue);
   rect(DeweyX, DeweyY + (smallBlock) * 5 + normalBlock * 2, blockWidth, smallBlock);
   rect(DeweyX, DeweyY + (smallBlock) * 6 + normalBlock * 2, blockWidth, smallBlock);
-}
+  
+
+} 
